@@ -25,10 +25,12 @@ img {
 a {
     color: currentColor;
     text-decoration: none;
+    display: inline-block;
 }
 
 button {
     cursor: pointer;
+    border: none;
 }
 
 .header {
@@ -313,6 +315,7 @@ padding: 100px 0;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        margin-bottom: 16px;
 }
 
 .footer-half-logo {
@@ -325,7 +328,7 @@ padding: 100px 0;
         line-height: 24px;
         letter-spacing: 0.32px;
         max-width: 264px; 
-        margin-top: 18px;
+        /* margin-top: 18px; */
         
            
 }
