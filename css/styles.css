@@ -63,7 +63,7 @@ button {
 .header-nav {
     display: flex;
     align-items: center;
-    padding: 25px 0;
+    /* padding: 25px 0; */
 }
 
 .nav-list {
@@ -75,6 +75,7 @@ button {
         letter-spacing: 0.32px;
         display: flex;
         gap: 40px;
+        padding: 24px 0;
 }
 
 .nav-list .link:hover,
