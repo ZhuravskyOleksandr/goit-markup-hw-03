@@ -63,7 +63,6 @@ button {
 .nav {
     display: flex;
     align-items: center;
-    padding: 25px 0 25px 0;
 }
 
 .nav-link {
@@ -96,13 +95,16 @@ color:#434455;
 }
 
 .contacts-list {
-    padding: 24px 0;
     display: flex;
     gap: 40px;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts-link {
+    padding: 24px 0;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
     color:#404BBF;
 }
 
